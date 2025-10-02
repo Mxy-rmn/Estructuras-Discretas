@@ -1,0 +1,42 @@
+DOR E:A 
+siempre lo va a ordenar elementos de un conjunto.
+
+
+
+/////////////////////////////////////////////////////////////
+for(auto : A) {1,2,3,4}
+
+
+auto significa que va a tomar por defecto el valor del tipo de dato para evita declarar mas cosas
+conjunto lo ordena por defecto 
+propieda dee un conjunto es que siemore estara ordenado.
+
+
+arbol binario
+estructura binaria
+
+
+IZQUIERDA, CENTRO , DERECHA
+
+TABLA DE HASH
+
+ARBOL BINARIO B B1 B*
+TABLAS DE HASH SIMPLE DOUBLE
+
+
+
+BASESS DE DATOS 
+
+
+#include<algorithm>
+#include<literator>
+ A.BEGIN PRINCIPIO DEL CONJUNTO
+ A.END FINAL DEL CONJUNTO
+
+
+size = tamaño del conjunto.
+count = cuenta los elementos del conjunto.
+insert = insertar en otro conjunto
+erase = borar del conjunto
+
+vector no te preocupas del 
