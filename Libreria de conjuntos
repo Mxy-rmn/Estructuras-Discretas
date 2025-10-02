@@ -1,0 +1,27 @@
+#include<iostream>
+#include<set>
+#include<algorithm>
+using namespace std;
+void mostrar(set<int> A){
+    cout<<" { ";
+  for(auto e:A)
+    {
+        cout<<e<<" , ";
+    }
+    cout<<" } ";
+    cout<<endl;
+}
+int main()
+{   set<int> A = {1,5,1,6,7,12};
+    set<int> B = {1,4,9,3,4,7,2,5};
+    set <int> C, D, E , F;
+    set_union(A.begin(),A.end(),B.begin(),B.end(),inserter(C,C.begin()));
+    set_intersection(A.begin(),A.end(),B.begin(),B.end(),inserter(D,D.begin()));
+    set_difference(A.begin(),A.end(),B.begin(),B.end(),inserter(E,E.begin()));
+    set_symmetric_difference(A.begin(),A.end(),B.begin(),B.end(),inserter(F,F.begin()));
+    mostrar(C);
+    mostrar(E);
+    mostrar(D);
+    mostrar(F);
+    return 0;
+}
